@@ -1,0 +1,231 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  background: #bbb;
+  padding: 20px 0;
+}
+
+.caixa{
+  position: relative;
+  width: 1250px;
+  margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav li a {
+  text-transform: uppercase;
+  color:#000;
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: none;
+  transition: 100ms;
+}
+  
+nav a:hover{
+    color: black;
+    transition: 100ms;
+    font-size: 33px;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+form { 
+  display: inline-block;
+  width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.fieldset-horario {
+  padding: 25px 0 10px;
+}
+
+select {
+  margin: 10px 0 10px;
+  font-size: 18px;
+  width: 20;
+}
+
+
+.input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
+}
+
+.checkbox {
+  margin: 10px 0 30px;
+}
+
+.enviar {
+  margin-top: 15px;
+  width: 40%;
+  padding: 15px 0;
+  background: rgb(196, 194, 193);
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 350ms;
+}
+
+
+.enviar:hover {
+  transition: 350ms;
+  color: #fff;
+
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 12s ease infinite;
+-z-animation: rainbow 9s ease infinite;
+-o-animation: rainbow 9s ease infinite;
+  animation: rainbow 9s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+table {
+  text-align: center;
+  margin: 30px auto;
+}
+
+thead {
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+}
+
+td, th {
+  border: 2px solid #000;
+  padding: 8px 15px;
+}
+
+
+  footer {
+    text-align: center;
+    background: #888;
+    padding: 40px 5px;
+  }
+  
+  
+  .copy{
+    font-size: 15px;
+    font-weight: bolder;
+  
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    .caixa{
+      width: auto;
+    }
+
+    .principal, .footer{
+      width: auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 30px;
+      position: static;
+      text-align: center;
+    }
+
+    .input-padrao {
+      margin: 0 0 20px;
+      padding: 10px 25px;
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .input-padrao {
+      margin: 0 0 20px;
+      padding: 10px 15px;
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .input-padrao {
+      margin: 0 0 20px;
+      padding: 10px 15px;
+      width: 70%;
+    }
+
+    .enviar{
+      width: 70%;
+      padding: 15px 0;
+      background: #bbb;
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 400ms;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    
+
+    .enviar{
+      width: 70%;
+      padding: 15px 0;
+      background: #bbb;
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 400ms;
+    }
+  }
+  

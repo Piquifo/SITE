@@ -1,0 +1,134 @@
+body {
+  font-family: 'Prompt', sans-serif;
+  background: rgb(170, 169, 169);
+}
+header {
+  background: rgb(72, 126, 161);
+  padding: 2rem 4rem;
+}
+
+.caixa {
+position:relative;
+width: 1250px;
+margin: 30px auto;
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav li a {
+font-weight: bold;
+text-transform: uppercase;
+color: #000;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+transition: 100ms;
+font-weight: bold;
+}
+
+nav a:hover{
+  transition: 100ms;
+  font-size: 30px;
+}
+
+.principal {
+  padding: 3rem 0 ;
+  background: #fefefe;
+  width: 90%;
+  margin: 0 20px;
+}
+
+
+.principal p {
+margin: 0 0 1rem;
+line-height: 1; 
+text-align: justify;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  clear: left;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgb(153, 152, 73);
+  /*color: #0ac729; */
+}
+
+
+.titulo-principal:before {
+  content: "🔧";
+}
+
+.titulo-principal:after {
+ content: "🔧";
+}
+
+.mapa {
+  padding: 4rem 13rem;
+  background: linear-gradient(220deg,#fefefe, #b8b8b8);
+}
+
+
+.mapa p {
+  text-align: center;
+  margin: 0 0 2rem;
+  font-weight: bold;
+}
+
+
+.video{
+  width: 1024px;
+  margin: 100px auto;
+}
+
+footer {
+  text-align: center;
+  background: #888;
+  padding: 40px 5px;
+}
+
+
+.copy{
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .caixa, .principal, .counteudo-beneficios, .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .titulo-principal {
+    font-size: 22px;
+  }
+
+  nav {
+    margin-top: 35px;
+    position: static;
+    text-align: center;
+  }
+
+}
+

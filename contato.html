@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/contato.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>Oficina Mecanica Aroldo- Contato</title>
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+        <h1><img src="img/Screenshot_6.png" alt="" /></h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+
+            <li>
+              <a href="produto.html">COM O QUE TRABALHAMOS</a>
+            </li>
+
+            <li>
+              <a href="contato.html">PEDIDO DE REPARO</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="principal">
+      <form action="">
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" class="input-padrao" required>
+
+      <label for="email">E-mail</label>
+      <input type="email" name='email' id="email" class="input-padrao" placeholder="Marcos@gmail.com" required>
+
+      <label for="telefone">telefone</label>
+      <input type="tel" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX" required>
+
+      <fieldset>
+        <legend class="fieldset-horario">O Problema esta Relacionado com:</legend>
+        <select name="" id="">
+          <option value="">Mecanica</option>
+          <option value="">Injeçao Eletronica</option>
+          <option value="">Oleo</option>
+          <option value="">Passagem De Scanner</option>
+          <option value="">Limpeza De Radiador</option>
+          <option value="">Outros</option>
+        </select>
+      </fieldset>
+
+      <label for="mensagem">Mensagem</label>
+      <legend class="fieldset-horario">Descreva um Pouco o Problema do Veiculo</legend>
+      <textarea name="" id="mensagem" class="input-padrao" cols="71" rows="10"></textarea>
+
+
+      <fieldset>
+        <legend>Como prefere nosso contato?</legend>
+        <label for="radio-email"></label>
+        <input type="radio" name="contato" value="email" id="radio-email">E-mail
+      </fieldset>
+
+
+      <label for="radio-telefone"></label>
+      <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone
+    </fieldset>
+
+
+    <label for="radio-Whatsapp"></label>
+    <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp" checked>Whatsapp
+    </fieldset>
+
+      <fieldset>
+        <legend class="fieldset-horario">Qual horario prefere ser atendido?</legend>
+        <select name="" id="">
+          <option value="">Manhã</option>
+          <option value="">Tarde</option>
+          <option value="">Noite</option>
+        </select>
+      </fieldset>
+
+      <label for="checkbox" >
+        <input type="checkbox" checked>Gostaria de receber nossas novidade pelo E-mail?
+      </label>
+
+      <input type="submit" class="enviar"  value="Enviar Pedido de Reparo">
+
+      </form>
+
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda ~ Sexta</td>
+            <td>8h ~ 20h</td>
+          </tr>
+          <tr>
+            <td>Sabado</td>
+            <td>13h ~ 18h</td>
+          </tr>
+        </tbody>
+      </table>
+    
+    </main>
+    
+    <footer>
+      <p class="copy">
+        Todos os direitos Reservados - Oficina Mecanica Aroldo - 2021
+    </footer>
+
+  
+</body>
+</html>
